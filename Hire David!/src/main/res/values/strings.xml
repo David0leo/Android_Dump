@@ -1,0 +1,71 @@
+<resources>
+    <string name="app_name">Hire David!</string>
+
+    <string name="main_bio_blurb">
+        My name is David Anderson. I am a University of Alberta Alumni, having graduated with a Bachelors of Science with Specialization in Mathematics.
+        \n\nDuring my time at the University of Alberta, I gained essential problem solving, critical thinking, and logic skills which I use daily in my programming ventures.
+        \n\nI\'m a math, physics, and computer science nerd looking to work hard for and learn from your company.\n\n
+
+        For inquiries, email developing.david@gmail.com\n
+        See also https://ca.linkedin.com/in/david0leo
+
+    </string>
+    <string name="main_math_blurb_top">
+        I am a huge math nerd, so for fun (and to learn some java) I coded up a program that visualizes a 3 dimensional function.
+        \nI wanted the image produced to be interesting and geometric, so I used some trigonometric functions.
+    </string>
+    <string name="main_math_blurb_left">
+        On the left are graphs of the function z  =  cos x  +  sin y.
+        \nWe have the (x, z)-graph in the top left, the (y, z)-graph to its right, and the (x, y)-graph as a contour map below them.
+    </string>
+    <string name="main_math_blurb_right">
+        On the right we have something fun that came out of the early testing of the left image. I wanted to generate random functions of the form\n
+        z = a cos^e1(x) + b sin^e2(y)\n
+        to see what would come out. The values of a, b, e1 and e2 are random for a given image. I used a jumble of colors with no reason behind the choices. The result is what you see!
+        \nI called it my \"Ugly Sweater Pattern Generator\".
+    </string>
+    <string name="main_math_blurb_bottom">
+        You can tap either for more info and to play with them!.
+    </string>
+    <string name="main_tech_blurb">
+        I have a strong understanding of object oriented design, algorithm design, and common data structures.\n
+        I also have experience working in a Linux/Unix environment. \n
+        My knowledge and experience is strongly rooted by the fundamentals of computer science and mathematics.
+        I love to learn new technologies and tools.\n\n
+
+        The programming/markup languages I have experience with in order of proficiency are:\n
+          - Python\n
+          - Java\n
+          - C / C++\n
+          - XML / HTML\n
+          - SQL / sqlite\n\n
+
+        I have also used the following design / IDE tools in some capacity:\n
+          - Android Studio\n
+          - Eclipse\n
+          - Wing IDE (Python)\n
+          - Visual Studio 2010\n
+          - Photoshop\n
+          - Unreal Engine 4
+    </string>
+
+    <string name="dialog_sweater_blurb">
+        In this window, you can adjust the pixel density of the image and generate new squares.
+    </string>
+
+    <string name="dialog_sweater_btn">Generate New Pattern</string>
+    <string name="dialog_sweater_res_blurb">
+        Press on the left button to increase density up to the max of 512x512. Then it cycles down to 32x32.\n
+        Press on the right button to increase the scale up to a max in a similar fasion.\n\n
+        The image is scaled to fit in the box which is why it blurs at low values.
+    </string>
+    <string name="dialog_function_blurb">
+        Here we have some visualizations of a 3 dimensional function.
+        \nThe top left and right show the function with y and x set to zero respectively,
+        and the larger image is a contour map of the function with darker shades meaning larger z values.
+
+        \n\nYou can edit the coefficients of the cos and sin parts, as well as the exponents, to see the effects on the function.
+        \n\nPress Enter to see the changes.
+    </string>
+
+</resources>
